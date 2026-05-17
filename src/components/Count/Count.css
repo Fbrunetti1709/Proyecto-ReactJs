@@ -1,0 +1,31 @@
+.count-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  background: #f9f9f9;
+  color: #111;
+}
+
+.count-container p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.btn {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #2f80ed;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #999;
+  cursor: not-allowed;
+}

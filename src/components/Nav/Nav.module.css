@@ -1,0 +1,92 @@
+/* .nav-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+}
+.nav-list li {
+  font-size: 2rem;
+  margin: 0.5rem;
+} */
+
+/* =========================
+   NAV.MODULE.CSS
+   CAFE DEL PUEBLO
+========================= */
+
+.navList {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 42px;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* ITEMS */
+
+.navList li {
+  position: relative;
+}
+
+/* LINKS */
+
+.navList a {
+  text-decoration: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #F5EFE4;
+
+  transition: 0.3s ease;
+}
+
+/* HOVER */
+
+.navList a:hover {
+  color: #C28A4E;
+}
+
+/* LINEA ANIMADA */
+
+.navList li::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+
+  width: 0%;
+  height: 2px;
+
+  background: #C28A4E;
+
+  transition: 0.3s ease;
+}
+
+.navList li:hover::after {
+  width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .navList {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .navList a {
+    font-size: 12px;
+  }
+}

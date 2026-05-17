@@ -1,0 +1,122 @@
+/* header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.logo-container img {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 0.1rem;
+}
+ */
+
+/* =========================
+   HEADER - ORIGEN COFFEE
+========================= */
+
+header {
+  width: 100%;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  background: rgba(12, 12, 12, 0.92);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  cursor: pointer;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+
+  transition: 0.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
+/* TEXTO LOGO */
+
+.logo-container h1 {
+  margin: 0;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  color: #EADBC8;
+}
+
+/* SUBTITULO OPCIONAL */
+
+.logo-container span {
+  display: block;
+
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #A67C52;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 0 20px;
+    height: 80px;
+  }
+
+  .logo-container img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .logo-container h1 {
+    font-size: 22px;
+  }
+
+  .logo-container span {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+} 
+

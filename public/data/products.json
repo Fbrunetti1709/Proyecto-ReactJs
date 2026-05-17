@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Café Colombia Supremo",
+    "description": "Café de origen colombiano, balanceado con notas dulces y frutales. Ideal para quienes buscan suavidad y aroma envolvente.",
+    "price": 8500,
+    "image": "/img/colombia.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Café Brasil Santos",
+    "description": "Café brasileño de cuerpo medio y baja acidez, con notas a chocolate y frutos secos. Perfecto para todos los días.",
+    "price": 7800,
+    "image": "/img/brasil.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Café Etiopía Yirgacheffe",
+    "description": "Café premium con alta acidez y notas florales y cítricas. Una experiencia exótica y compleja.",
+    "price": 9800,
+    "image": "/img/etiopia.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Café Guatemala Antigua",
+    "description": "Café intenso con cuerpo completo y notas ahumadas. Ideal para amantes de sabores profundos.",
+    "price": 9200,
+    "image": "/img/guatemala.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Café Perú Orgánico",
+    "description": "Café suave y equilibrado, cultivado de manera orgánica. Notas a cacao y nuez.",
+    "price": 8700,
+    "image": "/img/peru.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Café Costa Rica Tarrazú",
+    "description": "Café de alta acidez con notas frutales y dulces. Muy aromático y fresco.",
+    "price": 9100,
+    "image": "/img/costarica.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Café Kenya AA",
+    "description": "Café intenso con acidez brillante y notas a frutos rojos. Muy apreciado por expertos.",
+    "price": 10200,
+    "image": "/img/kenya.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Café Sumatra Mandheling",
+    "description": "Café de cuerpo pesado con notas terrosas y especiadas. Ideal para espresso fuerte.",
+    "price": 9600,
+    "image": "/img/sumatra.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Café México Chiapas",
+    "description": "Café suave con notas a chocolate y caramelo. Muy equilibrado y fácil de tomar.",
+    "price": 8300,
+    "image": "/img/mexico.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Café Nicaragua Segovia",
+    "description": "Café con cuerpo medio y notas dulces a miel y cacao. Muy agradable al paladar.",
+    "price": 8600,
+    "image": "/img/nicaragua.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Café India Monsooned Malabar",
+    "description": "Café de baja acidez con cuerpo intenso y notas especiadas. Sabor único por su proceso especial.",
+    "price": 9400,
+    "image": "/img/india.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Café Honduras Marcala",
+    "description": "Café balanceado con notas a frutas maduras y chocolate. Muy versátil.",
+    "price": 8400,
+    "image": "/img/honduras.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Café Tanzania Peaberry",
+    "description": "Café brillante con acidez media y notas frutales intensas. Perfil vibrante.",
+    "price": 9900,
+    "image": "/img/tanzania.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Café Panamá Geisha",
+    "description": "Café de especialidad con notas florales, jazmín y frutas tropicales. Muy exclusivo.",
+    "price": 15000,
+    "image": "/img/panama.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Café El Salvador Bourbon",
+    "description": "Café dulce con notas a caramelo y chocolate. Cuerpo medio y muy aromático.",
+    "price": 8800,
+    "image": "/img/elsalvador.jpg"
+  }
+]
